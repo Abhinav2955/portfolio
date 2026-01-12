@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | MERN Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li id="theme-toggle"><i class="fas fa-moon"></i></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1 class="name">Abhinav </h1>
+            <h3 class="typing-text">I am a <span class="typewriter"></span></h3>
+            <p>Passionate about Data Structures, Algorithms, and building scalable MERN Stack applications.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abhinav-prasad-283219291" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Abhinav2955"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-img">
+            <img src="photo.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Languages</h3>
+                <p>C, C++, JavaScript </p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-layer-group"></i>
+                <h3>MERN Stack</h3>
+                <p>MongoDB, Express, React, Node.js</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-brain"></i>
+                <h3>Problem Solving</h3>
+                <p>DSA, LeetCode, Competitive Programming</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Tools</h3>
+                <p>HTML5, CSS3, Git/GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="Real-Time public Transport tracking.jpg" alt="Project Image">
+                <div class="project-layer">
+                    <h4> Real-Time public Transport tracking</h4>
+                    <p>Implemented a GPS-based solution for tracking public
+                        transport, delivering live location updates and estimated
+                        arrival times to users.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="Online book exchange.jpg" alt="Project Image">
+                <div class="project-layer">
+                    <h4>Online book exchange
+                        system </h4>
+                    <p>Built a web application facilitating peer-to-peer book
+                        exchange, incorporating user authentication, search filters,
+                        and request tracking.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="Smart health tracking system.jpg" alt="Project Image">
+                <div class="project-layer">
+                    <h4> Smart health tracking system </h4>
+                    <p>Developed an IoT-based system to monitor real-time
+                        health vitals, enabling early anomaly detection and remote
+                        patient monitoring.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea cols="10" rows="5" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Abhinav | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
